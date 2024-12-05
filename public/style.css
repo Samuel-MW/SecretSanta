@@ -1,0 +1,50 @@
+* {
+    text-align: center;
+    font-family: monospace;
+}
+
+#app {
+    position: absolute;
+    margin-top: 50vh;
+    margin-left: 50vw;
+    transform: translate(-50%, -50%);
+}
+
+.smallerText {
+    color: grey;
+    font-size: 10px;
+}
+
+.biggerText {
+    color: black;
+    font-size: 25px;
+}
+
+input {
+    padding: 1em;
+    font-size: 30px;
+    text-align: center;
+    outline: none;
+    border: 2px grey solid;
+    border-radius: 25px;
+}
+
+button {
+    margin: 1em;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 15px;
+    border: 2px grey solid;
+    background-color: white;
+    transition-property: all;
+    transition-duration: 0.5s;
+} 
+
+button:disabled {
+    border: 2px white solid;
+    margin: 1em;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 15px;
+    background-color: lightgray;
+}
